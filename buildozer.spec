@@ -17,7 +17,7 @@ package.domain = org.induperator.edu
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,ogg
+source.include_exts = py,png,jpg,kv,atlas,ogg,json
 
 # (list) List of inclusions using pattern matching
 source.include_patterns = data/*.png, sound/*.ogg
@@ -40,7 +40,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3crystax==3.6,kivy
+requirements = python3crystax==3.6,kivy,python
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
